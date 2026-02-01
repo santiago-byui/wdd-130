@@ -1,0 +1,154 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: "roboto";
+}
+
+p {
+    font-family: "roboto";
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0B3C5D;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header a {
+    grid-column-end: span 2;
+    margin-left: 10px;
+}
+
+nav a {
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+nav a:hover {
+    background-color: whitesmoke;
+    color: #0B3C5D;
+}
+
+#hero {
+    text-align: center;
+}
+
+#hero-image {
+    max-width: 1600px;
+}
+
+#hero-message h1 {
+    text-align: center;
+    color: #2E5E4E;
+    font-family: "roboto";
+}
+
+#hero-message h4 {
+    text-align: center;
+    font-family: "roboto";
+}
+
+main section {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 0;
+}
+
+section h2 {
+    font-family: "roboto";
+}
+
+section a {
+    font-family: "roboto";
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.book {
+    background-color: #2E5E4E;
+    color: whitesmoke;
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: "roboto";
+}
+
+.book:hover {
+    background-color: #F28C28;
+    color: whitesmoke;
+}
+
+.join {
+    background-color: #F28C28;
+    color: whitesmoke;
+    font-family: "roboto";
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.join:hover {
+    background-color: whitesmoke;
+    color: #2E5E4E;
+}
+
+#background {
+    margin-top: 20px;
+    background-color: #2E5E4E;
+    height: 725px;
+}
+
+#nav-logo {
+    max-width: 100px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: #0B3C5D;
+    color: whitesmoke;
+}
+
+#footer-section {
+    background-color: #2E5E4E;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    color: whitesmoke;
+}
