@@ -1,32 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santiago Villarroel | WDD130 | Home </title>
+    <link rel="stylesheet" href="styles/portal.css">
+    <title>Portal</title>
 </head>
 
 <body>
-<header>
-  <nav>
-      <a href="wwr/index.html">White Water Rafting Website</a>
-      <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
-      <a href="positioning.html">Positioning Activity</a>
-      <a href="#">Personal Website</a>
-      <a href="#">Personal Siteplan</a>
-  </nav>    
-</header>   
 
-<main>
-    <h1>Santiago Villarroel</h1>
-    <img src="images/Selfie.jpg" alt="Image of me">
-    <p>I'm Santiago Villarroel, an international student at BYU-I</p>
-    <p>Currently majoring in Graphic Design, but I also like many things outside the arts</p>
-    <p>I enjoy learning about programming, nutrition, language, etc. </p>
-</main>
-<footer>
-    <p>&copy; 2026 Santiago Villarroel</p>
-</footer>
+    <nav>
+        <a href="" id="nav-title">Santiago Villarroel</a>
+        <img src="images/rotating-star.png" alt="logo" id="nav-logo" class="spin">
+
+        <div id="nav-links">
+            <a href="">home</a>
+            <a href="wwr/index.html">WWR</a>
+            <a href="projects.html">ICE</a>
+            <a href="about-me.html">about me</a>
+        </div>
+    </nav>
+
+
+    <main>
+
+        <img src="images/portal-image-blue.png" alt="portal-image" id="portal-image">
+
+        <div id="h1-container">
+            <h1>Welcome to my portal website!</h1>
+
+            <p>I made this website using HTML and CSS. Here you can access a variety of projects I made for WDD 130.</p>
+
+            <div id="h1-buttons">
+                <a href="projects.html"><button id="h1-button-1">Projects</button></a>
+                <a href="about-me.html"><button id="h1-button-2">About Me</button></a>
+            </div>
+        </div>
+
+    </main>
+
+
+    <section id="list-section">
+
+        <div id="list-container">
+            <h1>Project Table</h1>
+
+            <ul>
+                <li>It provides accessible and structured navigation.</li>
+                <li>It shows previous projects by category.</li>
+                <li>Makes information easy to compare.</li>
+                <li>You can click to visit each project!</li>
+            </ul>
+        </div>
+
+
+        <table>
+            <tr>
+                <th>ICE</th>
+                <th>WWR</th>
+            </tr>
+
+            <tr>
+                <td><a href="ice/prophet_cards/index.html">Prophet Cards</a></td>
+                <td><a href="wwr/site-plan-rafting.html">Site Plan</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="ice/apostle_spotlight/index.html">Apostle Spotlight</a></td>
+                <td><a href="wwr/index.html">Home Page</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="ice/favorite_devo/index.html">Devo Table</a></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><a href="ice/valentines/index.html">Holiday Page</a></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><a href="ice/grid_flags/grid_flags/index.html">Country Flags</a></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><a href="ice/positioning/index.html">Positioning Activity</a></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><a href="ice/gallery/gallery/index.html">Image Gallery</a></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><a href="ice/signup/signup/index.html">Signup Form</a></td>
+                <td></td>
+            </tr>
+
+        </table>
+
+    </section>
+
+
+    <section id="spotlight-section">
+
+        <h1>Project Spotlight</h1>
+
+        <div id="spotlight-gallery">
+
+            <div class="image-holder">
+                <a href="ice/grid_flags/grid_flags/index.html"><img src="images/spotlight-images/Screenshot 2026-03-05 191328.png" alt="flags"></a>
+
+                <h6>Country Flags CSS</h6>
+
+                <h5>
+                    This project recreates different country flags using only HTML and CSS.
+                    By using div elements, colors, positioning, and layout techniques such as flexbox or grid,
+                    each flag is constructed without images.
+                </h5>
+            </div>
+
+
+            <div class="image-holder">
+                <a href="wwr/index.html"><img src="images/spotlight-images/wwr-landing-page.png" alt="landing-page"></a>
+
+                <h6>White Water Rafting Landing Page</h6>
+
+                <h5>
+                    This project involved creating a landing page for a fictional whitewater 
+                    rafting company using HTML and CSS. The goal was to design a visually engaging 
+                    webpage that introduces the company, highlights rafting adventures, and encourages 
+                    visitors to learn more or book a trip.
+                </h5>
+            </div>
+
+
+            <div class="image-holder">
+                <a href="ice/positioning/index.html"><img src="images/spotlight-images/positioning-activity.png" alt="positioning-page"></a>
+
+                <h6>Positioning Activity</h6>
+
+                <h5>
+                    This activity focused on positioning shapes using CSS to better understand how elements 
+                    are placed and arranged on a webpage.
+                </h5>
+            </div>
+
+        </div>
+
+
+        <div id="form-section">
+
+            <h1>Contact Me</h1>
+            <form action="">
+
+                <label for="name">Name</label>
+                <br>
+                <input type="text">
+                <br>
+
+                <label for="email">email</label>
+                <br>
+                <input type="text">
+                <br>
+
+                <label for="message">message</label>
+                <br>
+                <input type="text" id="message-input">
+
+            </form>
+
+        </div>
+
+        <footer>
+
+            <div id="footer-links">
+                <a href="wwr/index.html"><h6>WWR</h6></a>
+                <a href="projects.html"><h6>ICE</h6></a>
+               <a href="about-me.html"><h6>About Me</h6></a> 
+            </div>
+
+            <h6 id="footer-sign">Portal Page 2026 - Santiago Villarroel</h6>
+
+        </footer>
+
+    </section>
+
 </body>
 
 </html>
