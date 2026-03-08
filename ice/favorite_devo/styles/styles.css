@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #f1f1f1, #093085);
+  background-repeat: no-repeat; /* Just in case */
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.header-image {
+  background-image: url('../images/devo-img.jpg'); /* Replace with your image */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+
+}
+
+.header-image h1 {
+  margin: 0;
+  line-height: 0.9;
+    font-size: 3.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background: #00000055;
+}
+
+.content-box {
+  background-color: white;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  padding: 10px;
+}
+.devo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.devo-table th,
+.devo-table td {
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.devo-table th {
+  background-color: #285c91;
+  color: white;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.devo-form {
+  text-align: left;
+  max-width: 90%;
+  margin: auto;
+}
+
+.devo-form h2 {
+  margin-bottom: 25px;
+  color: #285c91;
+}
+
+.devo-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.devo-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.devo-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #285c91;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.devo-form button:hover {
+  background-color: #5689bd;
+}

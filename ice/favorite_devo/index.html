@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Favorite Devotionals</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-image">
+        <h1>My Favorite<br>Devotionals</h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="content-box">
+
+        <table class="devo-table">
+          <thead>
+            <tr>
+              <th>Speaker</th>
+              <th>Title</th>
+              <th>Location</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Elder L. Tom Perry</td>
+              <td>Scaffolding for our Lives</td>
+              <td>BYU-Idaho</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>President Kim B. Clark</td>
+              <td>My Spirit Shall Be in Your Hearts</td>
+              <td>BYU-Idaho</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>Elder Rex D. Pinegar</td>
+              <td>The Power of Faith</td>
+              <td>BYU-Idaho</td>
+              <td>2011</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <form class="devo-form">
+
+          <label>Speaker</label>
+          <input type="text"  name="speaker" placeholder="Speaker name" />
+
+          <label>Title</label>
+          <input type="text"  name="title" placeholder="Devotional title" />
+
+          <label >Location</label>
+          <input type="text"  name="location" placeholder="BYU, BYU-Idaho, etc." />
+
+          <label >Year</label>
+          <input type="number"  name="year" placeholder="Year" />
+
+          <button type="submit">Add Devotional</button>
+        </form>
+
+      </div>
+    </main>
+  </div>
+</body>
+</html>
