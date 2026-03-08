@@ -1,0 +1,74 @@
+/* Add your CSS here to style your valentines day page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper {
+    background: linear-gradient(rgb(255, 246, 219),rgb(202, 105, 144));
+    max-width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 210, 128);
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 189, 65);
+    font-size: 55px;
+}
+img {
+    width: 20%;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+img:hover {
+    border: 5px solid rgb(255, 82, 151);
+    cursor: pointer;
+}
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section {
+    align-self: flex-start;
+    width: 60%;
+    margin: auto;
+}
+h2 {
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+section p {
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+li:hover {
+    font-size: large;
+    cursor: pointer;
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 171, 15);
+    font-weight: bold;
+}
+footer {
+    color: rgb(255, 255, 255);
+}
